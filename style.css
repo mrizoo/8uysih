@@ -1,14 +1,26 @@
+@import url(https://fonts.googleapis.com/css2?family=Varela&display=swap);
+
+body {
+  font-family: 'Varela', sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
 .container {
-    max-width: 600px;
     gap: 40px;
     margin: 100px;
     text-align: center;
+ 
 
 }
 
@@ -19,14 +31,43 @@
     background: bisque;
     border: none;
     cursor: pointer;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.restart {
+    font-size: 32px;
+    padding: 15px 60px;
+    border-radius: 20px;
+    background: crimson;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -50%;
+    right: 20%;
     
 }
 
 .wrapper {
-    margin-bottom: 20px;
+    margin-bottom: 45px;
     
 }
 
 h3 {
+    font-size: 25px;
     margin-bottom: 25px;
+}
+
+.score {
+    position: absolute;
+    bottom: -50%;
+    left: 20%;   
+}
+
+.time {
+    position: absolute;
+    bottom: -40%;
+    left: 20%; 
 }
