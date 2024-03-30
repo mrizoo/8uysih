@@ -63,11 +63,15 @@ h3 {
 .score {
     position: absolute;
     bottom: -50%;
-    left: 20%;   
+    left: 20%; 
+    font-size: 25px;  
+    font-weight: 600;
 }
 
 .time {
     position: absolute;
     bottom: -40%;
-    left: 20%; 
+    left: 20%;
+    font-size: 22px; 
+    font-weight: 600    ;
 }
